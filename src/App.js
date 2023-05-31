@@ -7,8 +7,8 @@ import { Switch, Route, Redirect } from 'react-router-dom'
 import Home from './Components/Home'
 import About from './Components/About'
 import Contact from './Components/Contact'
-import Services from './Components/Services'
 import Navbar from './Components/Navbar'
+import Products from './Components/Products';
 
 
 const App = () => {
@@ -17,9 +17,9 @@ const App = () => {
 		<Navbar />
 		<Switch>
 			<Route exact path="/" component={Home} />
-			<Route exact path="/services" component={Services} />
+			<Route exact path="/products" component={Products} />
 			<Route exact path="/about" component={About} />
-			<Route exact path="/contact" component={Contact} />
+			<Route exact path="/interest" component={Contact} />
 			<Redirect to="/" />
 		</Switch>
     </>

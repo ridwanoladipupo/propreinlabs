@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <>
       <div className="my-5">
-        <h1 className="text-center">Contact Us</h1>
+        <h1 className="text-center">Be our early adopter</h1>
       </div>
       <div className="container contact_div">
         <div className="row">
@@ -49,7 +49,7 @@ const Contact = () => {
                   onChange={inputEvent}
                   placeholder="Enter your name"
                 />
-                <label htmlFor="exampleFormControlInput1" className="form-label">
+                <label htmlFor="exampleFormControlInput1" className="form-label mt-3">
                   Email address
                 </label>
                 <input
@@ -64,7 +64,7 @@ const Contact = () => {
               </div>
               <div className="mb-3">
                 <label htmlFor="exampleFormControlTextarea1" className="form-label">
-                  Example textarea
+                  How can we help you?
                 </label>
                 <textarea
                   className="form-control"

@@ -5,31 +5,31 @@ import marketing from "../images/marketing.jpg";
 import software from "../images/software.jpg";
 import fullstack from "../images/fullstack.jpg";
 
-const ServiceData = [
+const ProductData = [
+    {
+        imgsrc: fullstack,
+        title: "Self diagnostic"
+    },
     {
         imgsrc: web,
-        title: "Web Development"
+        title: "Real-time and remote monitoring"
     },
     {
         imgsrc: android,
-        title: "Android Development"
+        title: "Patient-doctor interaction"
     },
     {
         imgsrc: software,
-        title: "Software Development"
+        title: "Analytics"
     },
     {
         imgsrc: marketing,
-        title: "Digital Marketing"
+        title: "Access to local pharmaceuticals"
     },
     {
         imgsrc: fullstack,
-        title: "Full Stack Development"
+        title: "Health history and record"
     },
-    {
-        imgsrc: marketing,
-        title: "Marketing"
-    }
 ];
 
-export default ServiceData;
+export default ProductData;
